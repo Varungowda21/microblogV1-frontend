@@ -59,7 +59,7 @@ export default function Subscribe({ user }) {
           description: 'Get access to all premium content',
           image: skillboostlogo,
           subscription_id: subscriptionId,
-          callback_url: `https://skill-boost-v1-frontend.vercel.app/api/v1/paymentverification?token=${token}`,
+          callback_url: `https://skillboostv1-backend.onrender.com/api/v1/paymentverification?token=${token}`,
           prefill: {
             name: user.name,
             email: user.email,
