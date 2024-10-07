@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:3061',
+  baseURL: 'https://skillboostv1-backend.onrender.com',
 });
