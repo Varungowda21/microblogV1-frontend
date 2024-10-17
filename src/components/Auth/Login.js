@@ -98,6 +98,7 @@ export default function Login() {
             <FormLabel htmlFor="password">Password</FormLabel>
             <Input
               id="password"
+              type="password"
               value={password}
               onChange={e => setPassword(e.target.value)}
               placeholder="password"
