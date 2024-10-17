@@ -42,7 +42,7 @@ export default function RequestedCourse() {
     return <Navigate to="/not-approved" />;
   }
   return (
-    <Grid minH={'100vh'} templateColumns={['1fr 5fr']}>
+    <Grid minH={'100vh'} templateColumns={['1fr', '1fr 5fr']}>
       {user.role === 'admin' ? <Sidebar /> : <InstructorSidebar />}
 
       <Box padding={['0', '16']} overflow="auto">
