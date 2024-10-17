@@ -47,7 +47,7 @@ export default function RequestedCourse() {
 
       <Box padding={['0', '16']} overflow="auto">
         <Heading my="16" textAlign={['center', 'left']}>
-          Instructor Requests
+          Requested Courses
         </Heading>
 
         <TableContainer w={['100vw', 'full']}>
