@@ -56,7 +56,7 @@ export default function ApproveInstructor() {
   };
 
   return (
-    <Grid minH={'100vh'} templateColumns={['1fr 5fr']}>
+    <Grid minH={'100vh'} templateColumns={['1fr', '1fr 5fr']}>
       <Sidebar />
       {loading ? (
         <Loader />
