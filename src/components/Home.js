@@ -51,7 +51,6 @@ export default function Home() {
       </div>
       <div className="container2">
         <video
-          autoPlay
           controls
           controlsList="nodownload nofullscreen noremoteplayback"
           disablePictureInPicture
